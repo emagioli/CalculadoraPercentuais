@@ -1,0 +1,41 @@
+body {
+  /* font-family: 'Asap', 'Trebuchet MS', Arial, sans-serif; */
+  font-family: 'Asap', 'Trebuchet MS', Arial, sans-serif;
+  font-size: larger;
+  background-image: url(assets/katsuragi-transparent35.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+.container {
+  margin: auto;
+  margin-top: %;
+  padding: 20px;
+  max-width: 350px;
+  border-radius: 10px;
+  background-color: #668cff;
+  text-align: center; /*adicionado por mim*/
+}
+
+.container h1 {
+  /* font-family: 'IM Fell English SC', serif; */
+  font-family: 'Asap', 'Trebuchet MS', Arial, sans-serif;
+  font-size: 1.45em;
+}
+
+input {
+  display: block; /* blocks occupy the entire width, nothing comes aside of an element with display : block */
+  box-sizing: border-box; /*the given dimmensions account padding (100px width represents content + padding)*/
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 70px;
+  height: 50px;
+  border: solid 1px;
+  border-radius: 10px;
+}
