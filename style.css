@@ -1,5 +1,4 @@
 body {
-  /* font-family: 'Asap', 'Trebuchet MS', Arial, sans-serif; */
   font-family: 'Asap', 'Trebuchet MS', Arial, sans-serif;
   font-size: larger;
   background-image: url(assets/katsuragi-transparent35.png);
@@ -20,7 +19,6 @@ body {
 }
 
 .container h1 {
-  /* font-family: 'IM Fell English SC', serif; */
   font-family: 'Asap', 'Trebuchet MS', Arial, sans-serif;
   font-size: 1.45em;
 }
