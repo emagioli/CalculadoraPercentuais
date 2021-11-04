@@ -1,7 +1,6 @@
 body {
   font-family: 'Asap', 'Trebuchet MS', Arial, sans-serif;
   font-size: larger;
-  background-image: url(assets/katsuragi-transparent35.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -10,12 +9,12 @@ body {
 
 .container {
   margin: auto;
-  margin-top: %;
+  /* margin-top: %; */
   padding: 20px;
   max-width: 350px;
   border-radius: 10px;
   background-color: #668cff;
-  text-align: center; /*adicionado por mim*/
+  text-align: center; 
 }
 
 .container h1 {
@@ -24,8 +23,8 @@ body {
 }
 
 input {
-  display: block; /* blocks occupy the entire width, nothing comes aside of an element with display : block */
-  box-sizing: border-box; /*the given dimmensions account padding (100px width represents content + padding)*/
+  display: block; 
+  box-sizing: border-box; 
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
